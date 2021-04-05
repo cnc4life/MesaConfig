@@ -1,0 +1,206 @@
+Error report created by /usr/lib/tcltk/linuxcnc/show_errors.tcl:
+
+Print file information:
+RUN_IN_PLACE=no
+LINUXCNC_DIR=
+LINUXCNC_BIN_DIR=/usr/bin
+LINUXCNC_TCL_DIR=/usr/lib/tcltk/linuxcnc
+LINUXCNC_SCRIPT_DIR=
+LINUXCNC_RTLIB_DIR=/usr/lib/linuxcnc/modules
+LINUXCNC_CONFIG_DIR=
+LINUXCNC_LANG_DIR=/usr/lib/tcltk/linuxcnc/msgs
+INIVAR=inivar
+HALCMD=halcmd
+LINUXCNC_EMCSH=/usr/bin/wish8.6
+LINUXCNC - 2.8.1
+Machine configuration directory is '/home/pi/linuxcnc/configs/my_LinuxCNC_machine'
+Machine configuration file is 'my_LinuxCNC_machine.ini'
+INIFILE=/home/pi/linuxcnc/configs/my_LinuxCNC_machine/my_LinuxCNC_machine.ini
+VERSION=1.1
+PARAMETER_FILE=linuxcnc.var
+TASK=milltask
+HALUI=halui
+DISPLAY=axis
+COORDINATES=XYZ
+KINEMATICS=trivkins coordinates=XYZ
+Starting LinuxCNC...
+Starting LinuxCNC server program: linuxcncsvr
+Loading Real Time OS, RTAPI, and HAL_LIB modules
+Starting LinuxCNC IO program: io
+Starting HAL User Interface program: halui
+Found file(REL): ./my_LinuxCNC_machine.hal
+hm2: loading Mesa HostMot2 driver version 0.15
+hm2_eth: loading Mesa AnyIO HostMot2 ethernet driver version 0.2
+hm2_eth: 192.168.1.121: INFO: Hardware address (MAC): 00:60:1b:11:81:61
+hm2_eth: discovered 7I80HD-16
+hm2/hm2_7i80.0: Low Level init 0.15
+hm2/hm2_7i80.0: 72 I/O Pins used:
+hm2/hm2_7i80.0:     IO Pin 000 (P1-01): Encoder #1, pin B (Input)
+hm2/hm2_7i80.0:     IO Pin 001 (P1-03): Encoder #1, pin A (Input)
+hm2/hm2_7i80.0:     IO Pin 002 (P1-05): Encoder #0, pin B (Input)
+hm2/hm2_7i80.0:     IO Pin 003 (P1-07): Encoder #0, pin A (Input)
+hm2/hm2_7i80.0:     IO Pin 004 (P1-09): Encoder #1, pin Index (Input)
+hm2/hm2_7i80.0:     IO Pin 005 (P1-11): Encoder #0, pin Index (Input)
+hm2/hm2_7i80.0:     IO Pin 006 (P1-13): PWMGen #1, pin Out0 (PWM or Up) (Output)
+hm2/hm2_7i80.0:     IO Pin 007 (P1-15): PWMGen #0, pin Out0 (PWM or Up) (Output)
+hm2/hm2_7i80.0:     IO Pin 008 (P1-17): PWMGen #1, pin Out1 (Dir or Down) (Output)
+hm2/hm2_7i80.0:     IO Pin 009 (P1-19): PWMGen #0, pin Out1 (Dir or Down) (Output)
+hm2/hm2_7i80.0:     IO Pin 010 (P1-21): PWMGen #1, pin Not-Enable (Output)
+hm2/hm2_7i80.0:     IO Pin 011 (P1-23): PWMGen #0, pin Not-Enable (Output)
+hm2/hm2_7i80.0:     IO Pin 012 (P1-25): Encoder #3, pin B (Input)
+hm2/hm2_7i80.0:     IO Pin 013 (P1-27): Encoder #3, pin A (Input)
+hm2/hm2_7i80.0:     IO Pin 014 (P1-29): Encoder #2, pin B (Input)
+hm2/hm2_7i80.0:     IO Pin 015 (P1-31): Encoder #2, pin A (Input)
+hm2/hm2_7i80.0:     IO Pin 016 (P1-33): Encoder #3, pin Index (Input)
+hm2/hm2_7i80.0:     IO Pin 017 (P1-35): Encoder #2, pin Index (Input)
+hm2/hm2_7i80.0:     IO Pin 018 (P1-37): PWMGen #3, pin Out0 (PWM or Up) (Output)
+hm2/hm2_7i80.0:     IO Pin 019 (P1-39): PWMGen #2, pin Out0 (PWM or Up) (Output)
+hm2/hm2_7i80.0:     IO Pin 020 (P1-41): PWMGen #3, pin Out1 (Dir or Down) (Output)
+hm2/hm2_7i80.0:     IO Pin 021 (P1-43): PWMGen #2, pin Out1 (Dir or Down) (Output)
+hm2/hm2_7i80.0:     IO Pin 022 (P1-45): PWMGen #3, pin Not-Enable (Output)
+hm2/hm2_7i80.0:     IO Pin 023 (P1-47): PWMGen #2, pin Not-Enable (Output)
+hm2/hm2_7i80.0:     IO Pin 024 (P2-01): Encoder #5, pin B (Input)
+hm2/hm2_7i80.0:     IO Pin 025 (P2-03): Encoder #5, pin A (Input)
+hm2/hm2_7i80.0:     IO Pin 026 (P2-05): Encoder #4, pin B (Input)
+hm2/hm2_7i80.0:     IO Pin 027 (P2-07): Encoder #4, pin A (Input)
+hm2/hm2_7i80.0:     IO Pin 028 (P2-09): Encoder #5, pin Index (Input)
+hm2/hm2_7i80.0:     IO Pin 029 (P2-11): Encoder #4, pin Index (Input)
+hm2/hm2_7i80.0:     IO Pin 030 (P2-13): PWMGen #5, pin Out0 (PWM or Up) (Output)
+hm2/hm2_7i80.0:     IO Pin 031 (P2-15): PWMGen #4, pin Out0 (PWM or Up) (Output)
+hm2/hm2_7i80.0:     IO Pin 032 (P2-17): PWMGen #5, pin Out1 (Dir or Down) (Output)
+hm2/hm2_7i80.0:     IO Pin 033 (P2-19): PWMGen #4, pin Out1 (Dir or Down) (Output)
+hm2/hm2_7i80.0:     IO Pin 034 (P2-21): PWMGen #5, pin Not-Enable (Output)
+hm2/hm2_7i80.0:     IO Pin 035 (P2-23): PWMGen #4, pin Not-Enable (Output)
+hm2/hm2_7i80.0:     IO Pin 036 (P2-25): Encoder #7, pin B (Input)
+hm2/hm2_7i80.0:     IO Pin 037 (P2-27): Encoder #7, pin A (Input)
+hm2/hm2_7i80.0:     IO Pin 038 (P2-29): Encoder #6, pin B (Input)
+hm2/hm2_7i80.0:     IO Pin 039 (P2-31): Encoder #6, pin A (Input)
+hm2/hm2_7i80.0:     IO Pin 040 (P2-33): Encoder #7, pin Index (Input)
+hm2/hm2_7i80.0:     IO Pin 041 (P2-35): Encoder #6, pin Index (Input)
+hm2/hm2_7i80.0:     IO Pin 042 (P2-37): PWMGen #7, pin Out0 (PWM or Up) (Output)
+hm2/hm2_7i80.0:     IO Pin 043 (P2-39): PWMGen #6, pin Out0 (PWM or Up) (Output)
+hm2/hm2_7i80.0:     IO Pin 044 (P2-41): PWMGen #7, pin Out1 (Dir or Down) (Output)
+hm2/hm2_7i80.0:     IO Pin 045 (P2-43): PWMGen #6, pin Out1 (Dir or Down) (Output)
+hm2/hm2_7i80.0:     IO Pin 046 (P2-45): PWMGen #7, pin Not-Enable (Output)
+hm2/hm2_7i80.0:     IO Pin 047 (P2-47): PWMGen #6, pin Not-Enable (Output)
+hm2/hm2_7i80.0:     IO Pin 048 (P3-01): StepGen #0, pin Step (Output)
+hm2/hm2_7i80.0:     IO Pin 049 (P3-03): StepGen #0, pin Direction (Output)
+hm2/hm2_7i80.0:     IO Pin 050 (P3-05): IOPort
+hm2/hm2_7i80.0:     IO Pin 051 (P3-07): IOPort
+hm2/hm2_7i80.0:     IO Pin 052 (P3-09): IOPorShutting down and cleaning up LinuxCNC...
+Running HAL shutdown script
+t
+hm2/hm2_7i80.0:     IO Pin 053 (P3-11): IOPort
+hm2/hm2_7i80.0:     IO Pin 054 (P3-13): StepGen #1, pin Step (Output)
+hm2/hm2_7i80.0:     IO Pin 055 (P3-15): StepGen #1, pin Direction (Output)
+hm2/hm2_7i80.0:     IO Pin 056 (P3-17): IOPort
+hm2/hm2_7i80.0:     IO Pin 057 (P3-19): IOPort
+hm2/hm2_7i80.0:     IO Pin 058 (P3-21): IOPort
+hm2/hm2_7i80.0:     IO Pin 059 (P3-23): IOPort
+hm2/hm2_7i80.0:     IO Pin 060 (P3-25): StepGen #2, pin Step (Output)
+hm2/hm2_7i80.0:     IO Pin 061 (P3-27): StepGen #2, pin Direction (Output)
+hm2/hm2_7i80.0:     IO Pin 062 (P3-29): IOPort
+hm2/hm2_7i80.0:     IO Pin 063 (P3-31): IOPort
+hm2/hm2_7i80.0:     IO Pin 064 (P3-33): IOPort
+hm2/hm2_7i80.0:     IO Pin 065 (P3-35): IOPort
+hm2/hm2_7i80.0:     IO Pin 066 (P3-37): StepGen #3, pin Step (Output)
+hm2/hm2_7i80.0:     IO Pin 067 (P3-39): StepGen #3, pin Direction (Output)
+hm2/hm2_7i80.0:     IO Pin 068 (P3-41): IOPort
+hm2/hm2_7i80.0:     IO Pin 069 (P3-43): IOPort
+hm2/hm2_7i80.0:     IO Pin 070 (P3-45): IOPort
+hm2/hm2_7i80.0:     IO Pin 071 (P3-47): IOPort
+hm2/hm2_7i80.0: registered
+hm2_eth: in hm2_eth_reset
+hm2_eth: HostMot2 ethernet driver unloaded
+hm2: unloading
+Removing HAL_LIB, RTAPI, and Real Time OS modules
+Removing NML shared memory segments
+
+Debug file information:
+Waiting for component 'trivkins' to become ready..........Waited 3 seconds for master.  giving up.
+.Note: Using POSIX realtime
+.
+./my_LinuxCNC_machine.hal:10: parameter or pin 'hm2_7i80hd.0.pwmgen.pwm_frequency' not found
+1129
+Stopping realtime threads
+Unloading hal components
+Note: Using POSIX realtime
+
+
+
+-----------------------------------------------------------------------
+Info report created by linuxcnc_info:
+The file:    /tmp/linuxcnc_info.txt
+can be posted to a forum or a web site like:
+     http://pastebin.com
+in order to provide information about the linuxcnc
+system and configuration.
+
+                Date: Sun 04 Apr 2021 07:41:29 PM CDT
+            UTC Date: Mon 05 Apr 2021 12:41:29 AM UTC
+        this program: /usr/bin/linuxcnc_info
+              uptime: 19:41:29 up 54 min, 2 users, load average: 0.98, 0.76, 0.54
+     lsb_release -sa: Raspbian Raspbian GNU/Linux 10 (buster) 10 buster
+      which linuxcnc: /usr/bin/linuxcnc
+                 pwd: /home/pi/linuxcnc/configs/my_LinuxCNC_machine
+                USER: pi
+             LOGNAME: pi
+                HOME: /home/pi
+              EDITOR: 
+              VISUAL: 
+            LANGUAGE: 
+                TERM: dumb
+           COLORTERM: 
+             DISPLAY: :0.0
+             DESKTOP: LXDE-pi
+        display size: 2560x1440 pixels (677x381 millimeters)
+                PATH: /usr/bin:/home/pi/linuxcnc/configs/my_LinuxCNC_machine/bin:/usr/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games
+
+uname items:
+         nodename -n: linuxcnc
+      kernel-name -s: Linux
+      kernel-vers -v: #1 SMP PREEMPT RT Fri Jan 1 21:15:16 GMT 2021
+          machine -m: armv7l
+        processor -p: unknown
+         platform -i: unknown
+      oper system -o: GNU/Linux
+
+/proc items:
+             cmdline: coherent_pool=1M 8250.nr_uarts=0 cma=64M cma=256M video=HDMI-A-1:1920x1080M@60 smsc95xx.macaddr=DC:A6:32:13:84:93 vc_mem.mem_base=0x3ec00000 vc_mem.mem_size=0x40000000 console=ttyS0,115200 console=tty1 root=PARTUUID=447dcd75-02 rootfstype=ext4 elevator=deadline fsck.repair=yes isolcpus=3 idle=poll rootwait quiet splash plymouth.ignore-serial-consoles
+          model name: ARMv7 Processor rev 3 (v7l)
+               cores: 
+             cpu MHz: 
+             parport: 
+              serial: 
+
+Versions:
+                 gcc: gcc (Raspbian 8.3.0-6+rpi1) 8.3.0
+              python: Python 2.7.16
+                 git: git version 2.20.1
+          git commit: NA
+                 tcl: 8.6
+                  tk: 8.6
+               glade: not_in_PATH
+          glade-gtk2: not_in_PATH
+
+linuxcnc_var all:
+
+     LINUXCNCVERSION: 2.8.1
+LINUXCNC_AUX_GLADEVCP: /usr/share/linuxcnc/aux_gladevcp
+LINUXCNC_AUX_EXAMPLES: /usr/share/linuxcnc/aux_examples
+            REALTIME: /etc/init.d/realtime
+                 RTS: uspace
+          HALLIB_DIR: /usr/share/linuxcnc/hallib
+
+dpkg -l '*linuxcnc*':
+Desired=Unknown/Install/Remove/Purge/Hold
+| Status=Not/Inst/Conf-files/Unpacked/halF-conf/Half-inst/trig-aWait/Trig-pend
+|/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
+||/ Name            Version      Architecture Description
++++-===============-============-============-=====================================================================
+un  linuxcnc        <none>       <none>       (no description available)
+un  linuxcnc-doc    <none>       <none>       (no description available)
+ii  linuxcnc-doc-en 1:2.8.1      all          motion controller for CNC machines and robots (English documentation)
+un  linuxcnc-sim    <none>       <none>       (no description available)
+ii  linuxcnc-uspace 1:2.8.1      armhf        motion controller for CNC machines and robots
+
